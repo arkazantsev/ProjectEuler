@@ -10,12 +10,22 @@
 #define ProblemSolver_hpp
 
 #include <stdio.h>
+#include <vector>
+using namespace std;
+
 
 #endif /* ProblemSolver_hpp */
 
 class ProblemSolver{
+
+private:
+    bool isPrime(long);
+    bool isPalindrome(int);
 public:
     int Problem1(int);
     int Problem2(int);
-    int Problem3(int);
+    long Problem3(long);
+    int Problem4();
+
+
 };
