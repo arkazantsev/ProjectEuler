@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC12454A1D1FCEC5002570BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1245491D1FCEC5002570BA /* main.cpp */; };
+		AC12454A1D1FCEC5002570BA /* Problem1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1245491D1FCEC5002570BA /* Problem1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		AC1245461D1FCEC5002570BA /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC1245491D1FCEC5002570BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC1245491D1FCEC5002570BA /* Problem1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		AC1245481D1FCEC5002570BA /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
-				AC1245491D1FCEC5002570BA /* main.cpp */,
+				AC1245491D1FCEC5002570BA /* Problem1.cpp */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC12454A1D1FCEC5002570BA /* main.cpp in Sources */,
+				AC12454A1D1FCEC5002570BA /* Problem1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
