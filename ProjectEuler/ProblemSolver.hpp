@@ -26,6 +26,7 @@ public:
     int Problem2(int);
     long Problem3(long);
     int Problem4();
+    int Problem78();
 
 
 };
