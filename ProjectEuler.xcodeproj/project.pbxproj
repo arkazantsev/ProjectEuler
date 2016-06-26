@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC12454A1D1FCEC5002570BA /* Problem1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1245491D1FCEC5002570BA /* Problem1.cpp */; };
+		AC12454A1D1FCEC5002570BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1245491D1FCEC5002570BA /* main.cpp */; };
+		AC6D56F41D1FE0FF00061638 /* ProblemSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6D56F21D1FE0FF00061638 /* ProblemSolver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		AC1245461D1FCEC5002570BA /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC1245491D1FCEC5002570BA /* Problem1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem1.cpp; sourceTree = "<group>"; };
+		AC1245491D1FCEC5002570BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC6D56F21D1FE0FF00061638 /* ProblemSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProblemSolver.cpp; sourceTree = "<group>"; };
+		AC6D56F31D1FE0FF00061638 /* ProblemSolver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProblemSolver.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		AC1245481D1FCEC5002570BA /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
-				AC1245491D1FCEC5002570BA /* Problem1.cpp */,
+				AC6D56F21D1FE0FF00061638 /* ProblemSolver.cpp */,
+				AC6D56F31D1FE0FF00061638 /* ProblemSolver.hpp */,
+				AC1245491D1FCEC5002570BA /* main.cpp */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC12454A1D1FCEC5002570BA /* Problem1.cpp in Sources */,
+				AC6D56F41D1FE0FF00061638 /* ProblemSolver.cpp in Sources */,
+				AC12454A1D1FCEC5002570BA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +245,7 @@
 				AC12454F1D1FCEC5002570BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
