@@ -60,6 +60,9 @@ int ProblemSolver::Problem2(int N){
 }
 
 bool ProblemSolver::isPrime(long n){
+    
+    //for Problem 3
+    
     for(int i=2; i <= n/2; ++i)
     {
         if(n%i == 0)
@@ -71,6 +74,10 @@ bool ProblemSolver::isPrime(long n){
 }
 
 long ProblemSolver::Problem3(long k){
+    
+    // Largest prime factor
+    // https://projecteuler.net/problem=3
+    
     long s = (long)sqrt(k) + 2;
     bool ProblemSolved = false;
     while(not ProblemSolved){
@@ -86,8 +93,10 @@ long ProblemSolver::Problem3(long k){
 }
 
 bool ProblemSolver::isPalindrome(int n){
+    
+    // For Problem 4
+    
     string s = to_string(n);
-    //std::cout << i << "*" << j << " = " << s << std::endl;
     for (int a = 0, b = s.size()-1; a < b; a++, b--) {
         if (s[a] != s[b]) {
             return false;
@@ -101,6 +110,10 @@ bool ProblemSolver::isPalindrome(int n){
 }
 
 int ProblemSolver::Problem4(){
+    
+    //Largest palindrome product
+    //https://projecteuler.net/problem=4
+    
     int max = 0;
     for (int i = 999; i >100; i--) {
         for (int j = 999; j > 100; j--) {
@@ -116,16 +129,17 @@ int ProblemSolver::Problem4(){
 }
 
 int ProblemSolver::Problem78(){
+
+    // 	Coin partitions
+    // https://projecteuler.net/problem=78
     
     vector<int> p = vector<int>();
     p.push_back(1);
-    
     int n = 1;
     while(true){
         int i = 0;
         int penta = 1;
         p.push_back(0);
-        
         while (penta <= n){
             int sign = (i % 4 > 1) ? -1 : 1;
             p[n] += sign * p[n - penta];
@@ -141,8 +155,6 @@ int ProblemSolver::Problem78(){
         }
         n++;
     }
-    
-    
     return n;
     
 }
