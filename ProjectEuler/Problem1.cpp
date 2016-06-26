@@ -6,7 +6,6 @@
 //  Copyright © 2016 Artem Kazantsev. All rights reserved.
 //
 
-// hui
 
 #include<iostream>
 #include<map>
